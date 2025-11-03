@@ -1,0 +1,17 @@
+ public double Salario(double valor1)
+        {
+               
+            if (valor1 >= 2000) {
+                valor1 = valor1 * 1.2754;
+                return valor1;
+            }
+            else
+            {
+                valor1 = valor1 * 1.1523;
+                return valor1;
+            }
+        }
+----------------------------------------------------------------------
+ Console.WriteLine("Digite seu salário: ");
+           double valorSalario = metodos.Salario(10);
+            Console.WriteLine("O novo salario é " +  valorSalario);

@@ -1,0 +1,129 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Funcionario
+    {
+        public string nome;
+        public string cargo;
+        public string cpf;
+        public string endereco;
+        public string telefone;
+        public string email;
+        public double remuneracao;
+        public string cargaHoraria;
+        public double peso;
+        public double altura;
+        public int idade;
+
+
+        public void Trabalha()
+        {
+            Console.WriteLine("O funcionario esta trabalhando ");
+        }
+
+        public void Conversa()
+        {
+            Console.WriteLine("O funcionario esta conversando");
+        }
+
+        public void Come()
+        {
+            Console.WriteLine("O funcionario esta comendo ");
+        }
+
+        public void Descansa()
+        {
+            Console.WriteLine("O funcionario esta descansando ");
+        }
+        public void Lucra()
+        {
+            if (remuneracao == 0)
+            {
+                Console.WriteLine("Você não especificou a remuneração ");
+               
+
+            }
+            else
+            {
+                double novoSalario = remuneracao * 1.25;
+                Console.WriteLine("O novo salario é: " + novoSalario);
+          
+            }
+        }
+    }
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Cachorro
+    {
+        public double peso;
+        public int idade;
+        public string cor;
+        public double altura;
+        public string porte;
+        public string tipoHabitat;
+        public string raca;
+        public string nome;
+
+
+
+        public void Latir()
+        {
+            Console.WriteLine("O cachorro está latindo");
+            if (idade <= 3)
+            {
+                Console.WriteLine("Cachorro não late");
+            }
+            else
+            {
+                Console.WriteLine("Cachorro pode latir");
+            }
+        }
+
+        public void Comer()
+        {
+            Console.WriteLine("O cachorro está comendo");
+        }
+
+        public void Beber()
+        {
+            Console.WriteLine("O cachorro está bebendo");
+        }
+
+        public void Morder()
+        {
+            Console.WriteLine("O cachorro está mordendo");
+        }
+
+        public void Correr()
+        {
+            Console.WriteLine("O cachorro está correndo");
+        }
+
+        public void Brincar()
+        {
+            Console.WriteLine("O cachorro está brincando");
+        }
+        public void Dormir()
+        {
+            Console.WriteLine("O cachorro está dormindo");
+        }
+         
+
+       
+    }
+}
