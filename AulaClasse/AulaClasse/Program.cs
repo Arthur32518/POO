@@ -163,6 +163,72 @@ namespace AulaClasse
             //metodosSenai.Nome = Console.ReadLine();
             //metodosSenai.Estudar();
 
+            //5
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Digite seu nome: ");
+            //metodosSenai.Nome = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //metodosSenai.Idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Digite o nome da cidade onde mora: ");
+            //metodosSenai.Cidade = Console.ReadLine();
+            //Console.WriteLine("Nome da escola que trabalha: ");
+            //metodosSenai.NomeEscola = Console.ReadLine();
+            //Console.WriteLine("Digite sua matéria que leciona: ");
+            //metodosSenai.Materia = Console.ReadLine();
+            //metodosSenai.Informar();
+
+            //Console.WriteLine("Digite o nome do aluno: ");
+            //metodosSenai.NomeAluno = Console.ReadLine();
+            //Console.WriteLine("Digite a primeira nota: ");
+            //double nota1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a segunda nota: ");
+            //double nota2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a terceira nota: ");
+            //double nota3 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a quarta nota: ");
+            //double nota4 = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Calculo(nota1, nota2, nota3, nota4);
+
+
+            //6
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Digite o nome do colaborador: ");
+            //metodosSenai.Nome = Console.ReadLine();
+            //Console.WriteLine("Digite a idade do colaborador: ");
+            //metodosSenai.Idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Informe sua escolaridade: ");
+            //metodosSenai.Escolaridade = Console.ReadLine();
+            //Console.WriteLine("Digite seu CPF: ");
+            //metodosSenai.Cpf = Console.ReadLine();
+            //Console.WriteLine("Digite seu RG: ");
+            //metodosSenai.Rg = Console.ReadLine();
+            //metodosSenai.Informar();
+
+            //Console.WriteLine("Informe seu salario: ");
+            //double salario = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Pagar(salario);
+
+            //7
+            MetodosSenai metodosSenai = new MetodosSenai();
+            Console.WriteLine("Digite o valor em reais para converter para Dolar");
+            double valorReais = Convert.ToDouble(Console.ReadLine());
+            metodosSenai.Conveter1(valorReais);
+
+
+            Console.WriteLine("Digite o valor em Dolar para conversão para reais: ");
+            double valorDolar = Convert.ToDouble(Console.ReadLine());
+            metodosSenai.Conveter2(valorDolar);
+
+
+            Console.WriteLine("Digite o valor em Reais para conversão para Euro: ");
+            double valorReais2 = Convert.ToDouble(Console.ReadLine());
+            metodosSenai.Conveter3(valorReais2);
+
+
+
+
+
+
 
 
 
