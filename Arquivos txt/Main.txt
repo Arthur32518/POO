@@ -1,0 +1,31 @@
+Aluno2 aluno2 = new Aluno2();
+            aluno2.Cpf = "000";
+
+            Console.WriteLine(aluno2.Cpf);
+
+            Animal animal = new Animal();
+
+            Gato gato = new Gato();
+
+            PessoaJS pessoaJS = new PessoaJS();
+            pessoaJS.Cnpj = "12345";
+            pessoaJS.razaoSocial = "AAA";
+            pessoaJS.sexo = "Masculino";
+            pessoaJS.idade = 25;
+            pessoaJS.endereco = "AV sao jose";
+          
+            
+            PessoaPF pessoaPF = new PessoaPF();
+            pessoaPF.Cpf = "22222";
+            pessoaPF.cidade = "Garça";
+            pessoaPF.endereco = "Av Paineiras";
+            pessoaPF.sexo = "Masculino";
+            pessoaPF.idade = 29;
+
+
+            Pessoa pessoa = new Pessoa();
+            pessoa.idade = 30;
+            pessoa.nome = "Arthur";
+            pessoa.sexo = "Masculino";
+            pessoaPF.idade = 29;
+

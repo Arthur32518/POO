@@ -44,15 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aluno.cs" />
+    <Compile Include="Aluno2.cs" />
     <Compile Include="Alunos.cs" />
+    <Compile Include="Animal.cs" />
     <Compile Include="Biblioteca.cs" />
     <Compile Include="Cachorro.cs" />
     <Compile Include="Funcionario.cs" />
+    <Compile Include="Gato.cs" />
     <Compile Include="Jogador.cs" />
     <Compile Include="ListaMetodos.cs" />
     <Compile Include="Metodos.cs" />
     <Compile Include="MetodosSenai.cs" />
     <Compile Include="Moeda.cs" />
+    <Compile Include="Peixe.cs" />
+    <Compile Include="Pessoa.cs" />
+    <Compile Include="PessoaJS.cs" />
+    <Compile Include="PessoaPF.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

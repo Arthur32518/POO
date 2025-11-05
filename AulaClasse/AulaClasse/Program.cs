@@ -10,120 +10,7 @@ namespace AulaClasse
     {
         static void Main(string[] args)
         {
-            ////Instância do objeto "Aluno"
-            //Aluno aluno = new Aluno();
-            //aluno.nome = "Arthur";
-            //aluno.rm = "1020";
-            //aluno.email = "teste@gmail.com";
-            //aluno.idade = 50;
-            //aluno.responsavel = "Mãe";
-            //aluno.altura = 1.70;
-
-
-            //Console.WriteLine("O nome do aluno é " + aluno.nome);
-
-            ////Os métodos não devem ter um modificardor "static"
-            //aluno.Ler();
-            //aluno.Estudar();
-            //aluno.Falar();
-
-
-            ////Instância de um novo objeto 
-            //Aluno aluno1 = new Aluno();
-            //aluno1.nome = "Ricardo";
-            //aluno1.rm = "1030";
-            //aluno1.email = "teste2@gmail.com";
-            //aluno1.idade = 40;
-            //aluno1.responsavel = "Pai";
-            //aluno1.altura = 1.72;
-
-
-            //aluno1.Ler();
-            //aluno1.Estudar();
-            //aluno1.Falar();
-
-
-
-            //Cachorro cachorro = new Cachorro();
-            //cachorro.raca = "Pastor alemão";
-            //cachorro.cor = "Preto";
-            //cachorro.altura = 1.10;
-            //cachorro.porte = "Pesado";
-            //cachorro.nome = "Hulk";
-            //cachorro.peso = 40;
-            //cachorro.tipoHabitat = "Mato";
-            //cachorro.idade = 8;
-
-
-            //cachorro.Beber();
-            //cachorro.Latir();
-            //cachorro.Comer();
-            //cachorro.Morder();
-            //cachorro.Brincar();
-            //cachorro.Dormir();
-            //cachorro.Correr();
-
-
-            //Funcionario funcionario = new Funcionario();
-            //funcionario.email = "funcionario@gmail.com";
-            //funcionario.altura = 1.70;
-            //funcionario.cargo = "Gerente";
-            //funcionario.telefone = "14991707070";
-            //funcionario.peso = 80;
-            //funcionario.endereco = "Av. Paineiras";
-            //funcionario.cargaHoraria = "7 as 18";
-            //funcionario.cpf = "257234765";
-            //funcionario.remuneracao = 1000;
-            //Console.WriteLine("Digite sua idade: ");
-            //funcionario.idade = Convert.ToInt32(Console.ReadLine());
-
-
-            //funcionario.Come();
-            //funcionario.Conversa();
-            //funcionario.Descansa();
-            //funcionario.Trabalha();
-            //funcionario.Lucra();
-
-
-
-            //Jogador jogador = new Jogador();
-            //jogador.Correr("Arthur", 16);
-
-
-
-            //Metodos metodos = new Metodos();
-            //metodos.Somar(10, 10, 10);
-
-            //metodos.Multiplicar(10, 20);
-            //int resultado = metodos.Multiplicar(15, 10);
-
-            //if (resultado >= 100)
-            //{
-            //    Console.WriteLine($"O valor {resultado} é maior que 100");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Resultado menor que 100");
-            //}
-
-            //QUANDO FOR METODO COM RETURN PRECISA DE UMA VARIAVEL PARA ARMAZENAR O VALOR 
-
-            //string numero = metodos.Dividir();
-            //Console.WriteLine(numero);
-
-
-            // Console.WriteLine("Digite seu salário: ");
-            //double salario = Convert.ToDouble(Console.ReadLine());
-
-            // //Variavel novoSalario que armazena o retorno do calculo do novo salario
-
-            // double novoSalario = metodos.Salario(salario);
-            // Console.WriteLine("O novo salario é de: " +  novoSalario);
-
-
-            //metodos.Somar(5, 7);
-            //metodos.Subtrair(10);
-
+            
 
             // --1
             //MetodosSenai metodosSenai = new MetodosSenai();
@@ -246,24 +133,58 @@ namespace AulaClasse
             //metodosSenai.Circulo();
 
             //9
-            Alunos alunos = new Alunos();
+            //Alunos alunos = new Alunos();
             
-            Console.WriteLine("Digite a primeira nota: ");
-            double nota1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Digite a segunda nota: ");
-            double nota2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Digite a terceira nota: ");
-            double nota3 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Digite a quarta nota: ");
-            double nota4 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Digite a quinta nota: ");
-            double nota5 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a primeira nota: ");
+            //double nota1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a segunda nota: ");
+            //double nota2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a terceira nota: ");
+            //double nota3 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a quarta nota: ");
+            //double nota4 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a quinta nota: ");
+            //double nota5 = Convert.ToDouble(Console.ReadLine());
 
-            alunos.SomarNotas(nota1,nota2 ,nota3,nota4,nota5);
+            //alunos.SomarNotas(nota1,nota2 ,nota3,nota4,nota5);
 
-            string resultado = alunos.CalcularMedia();
-            Console.WriteLine(resultado);
+            //string resultado = alunos.CalcularMedia();
+            //Console.WriteLine(resultado);
           
+            Aluno2 aluno2 = new Aluno2();
+            aluno2.Cpf = "000";
+
+            Console.WriteLine(aluno2.Cpf);
+
+            Animal animal = new Animal();
+
+            Gato gato = new Gato();
+
+            PessoaJS pessoaJS = new PessoaJS();
+            pessoaJS.Cnpj = "12345";
+            pessoaJS.razaoSocial = "AAA";
+            pessoaJS.sexo = "Masculino";
+            pessoaJS.idade = 25;
+            pessoaJS.endereco = "AV sao jose";
+          
+            
+            PessoaPF pessoaPF = new PessoaPF();
+            pessoaPF.Cpf = "22222";
+            pessoaPF.cidade = "Garça";
+            pessoaPF.endereco = "Av Paineiras";
+            pessoaPF.sexo = "Masculino";
+            pessoaPF.idade = 29;
+
+
+            Pessoa pessoa = new Pessoa();
+            pessoa.idade = 30;
+            pessoa.nome = "Arthur";
+            pessoa.sexo = "Masculino";
+            pessoaPF.idade = 29;
+
+
+
+
 
 
 
