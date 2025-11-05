@@ -1,0 +1,443 @@
+-----------------------------------------------------------------	PROGRAM
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+            // --1
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Seu nome: ");        
+            //metodosSenai.Nome = Console.ReadLine() ;
+            //Console.WriteLine("Seu sobrenome: ");
+            //metodosSenai.Sobrenome = Console.ReadLine();
+            //Console.WriteLine("Seu endereco: ");
+            //metodosSenai.Endereco = Console.ReadLine();
+            //Console.WriteLine("Seu estado: ");
+            //metodosSenai.Estado = Console.ReadLine();
+            //Console.WriteLine("Seu pais: ");
+            //metodosSenai.Pais = Console.ReadLine();
+            //Console.WriteLine("Sua cidade: ");
+            //metodosSenai.Cidade = Console.ReadLine();
+            //metodosSenai.informacoes();
+
+            // --2
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Nome da empresa");
+            //metodosSenai.Nome = Console.ReadLine();
+            //Console.WriteLine("Marca do produto");
+            //metodosSenai.MarcaDoProduto = Console.ReadLine();
+            //Console.WriteLine("Codigo do produto: ");
+            //metodosSenai.CodigoProduto = Console.ReadLine();
+            //Console.WriteLine("Digite a quantidade: ");
+            //metodosSenai.quantidade = Convert.ToInt32(Console.ReadLine());
+            //metodosSenai.Produtos();
+
+            //3
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Nome da escola: ");
+            //metodosSenai.NomeDaEscola = Console.ReadLine();
+            //Console.WriteLine("Idade: ");
+            //metodosSenai.Idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Nome: ");
+            //metodosSenai.Nome = Console.ReadLine();
+            //metodosSenai.Estudar();
+
+            //5
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Digite seu nome: ");
+            //metodosSenai.Nome = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //metodosSenai.Idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Digite o nome da cidade onde mora: ");
+            //metodosSenai.Cidade = Console.ReadLine();
+            //Console.WriteLine("Nome da escola que trabalha: ");
+            //metodosSenai.NomeEscola = Console.ReadLine();
+            //Console.WriteLine("Digite sua matéria que leciona: ");
+            //metodosSenai.Materia = Console.ReadLine();
+            //metodosSenai.Informar();
+
+            //Console.WriteLine("Digite o nome do aluno: ");
+            //metodosSenai.NomeAluno = Console.ReadLine();
+            //Console.WriteLine("Digite a primeira nota: ");
+            //double nota1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a segunda nota: ");
+            //double nota2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a terceira nota: ");
+            //double nota3 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a quarta nota: ");
+            //double nota4 = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Calculo(nota1, nota2, nota3, nota4);
+
+
+            //6
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Digite o nome do colaborador: ");
+            //metodosSenai.Nome = Console.ReadLine();
+            //Console.WriteLine("Digite a idade do colaborador: ");
+            //metodosSenai.Idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Informe sua escolaridade: ");
+            //metodosSenai.Escolaridade = Console.ReadLine();
+            //Console.WriteLine("Digite seu CPF: ");
+            //metodosSenai.Cpf = Console.ReadLine();
+            //Console.WriteLine("Digite seu RG: ");
+            //metodosSenai.Rg = Console.ReadLine();
+            //metodosSenai.Informar();
+
+            //Console.WriteLine("Informe seu salario: ");
+            //double salario = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Pagar(salario);
+
+            //7
+            //Moeda moeda = new Moeda();
+            //Console.WriteLine("Digite o valor em reais para converter para Dolar");
+            //double valorReais = Convert.ToDouble(Console.ReadLine());
+            //moeda.Conveter1(valorReais);
+
+
+            //Console.WriteLine("Digite o valor em Dolar para conversão para reais: ");
+            //double valorDolar = Convert.ToDouble(Console.ReadLine());
+            //moeda.Conveter2(valorDolar);
+
+
+            //Console.WriteLine("Digite o valor em Reais para conversão para Euro: ");
+            //double valorReais2 = Convert.ToDouble(Console.ReadLine());
+            //moeda.Conveter3(valorReais2);
+
+
+            //4
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Digite o valor da largura do retângulo:");
+            //metodosSenai.Largura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite o valor do comprimento do retângulo:");
+            //metodosSenai.Comprimento = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Retangulo();
+
+
+            //Console.WriteLine("Digite o valor da largura do quadrado:");
+            //metodosSenai.Largura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite o valor do comprimento do quadrado:");
+            //metodosSenai.Comprimento = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Quadrado();
+
+
+            //Console.WriteLine("Digite o valor do raio do círculo:");
+            //metodosSenai.Raio = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Circulo();
+
+            //9
+            //Alunos alunos = new Alunos();
+            
+            //Console.WriteLine("Digite a primeira nota: ");
+            //double nota1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a segunda nota: ");
+            //double nota2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a terceira nota: ");
+            //double nota3 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a quarta nota: ");
+            //double nota4 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite a quinta nota: ");
+            //double nota5 = Convert.ToDouble(Console.ReadLine());
+
+            //alunos.SomarNotas(nota1,nota2 ,nota3,nota4,nota5);
+
+            //string resultado = alunos.CalcularMedia();
+            //Console.WriteLine(resultado);
+          
+
+
+        }
+    }
+}
+
+--------------------------------------------------------------------------------Métodos atividade
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class MetodosSenai
+    {
+        //1
+        //public string Nome;
+        //public string Sobrenome;
+        //public string Endereco;
+        //public string Cidade;
+        //public string Estado;
+        //public string Pais;
+
+        //2
+        //public string Nome;
+        //public string MarcaDoProduto;
+        //public string CodigoProduto;
+        //public int quantidade;
+
+        //3
+        //public string Nome;
+        //public int Idade;
+        //public string NomeDaEscola;
+
+        //5
+        //public string Nome;
+        //public string Materia;
+        //public int Idade;
+        //public string Cidade;
+        //public string NomeEscola;
+        // public string NomeAluno;
+        //public double Nota1;
+        //public double Nota2;
+        //public double Nota3;
+        //public double Nota4;
+
+        //6
+        //public string Nome;
+        //public string Escolaridade;
+        //public int Idade;
+        //public string Cpf;
+        //public string Rg;
+        //public double Salario;
+
+        //7
+        //public double ValorReais;
+        //public double ValorDolar;
+        //public double ValorEuro; 
+
+        //4
+        //public double Comprimento;
+        //public double Largura;
+
+
+
+        //--------------------------------------------------------------------
+
+
+        // 1
+        //public void informacoes()
+        //{
+        //    Console.WriteLine($"O nome é {Nome}, ele mora em {Endereco}, {Cidade} de {Estado} no {Pais} ");
+
+        //}
+
+        // 2
+        //public void Produtos()
+        //{
+        //    Console.WriteLine($"O nome é {Nome}, sua marca {MarcaDoProduto},Código: {CodigoProduto}, tem {quantidade} produtos ");
+
+        //    if (quantidade < 10)
+        //    {
+        //        int quantidadeAumentada = quantidade * 20;
+        //        Console.WriteLine("A nova quantidade é: " + quantidadeAumentada);
+        //    }
+        //    else if (quantidade < 20)
+        //    {
+        //        int quantidadeAumentada = quantidade * 25;
+        //        Console.WriteLine("A nova quantidade é: " + quantidadeAumentada);
+        //    }
+        //    else
+        //    {
+        //        int quantidadeAuemntada = quantidade * 5;
+
+        //        Console.WriteLine("A nova quantidade é: " + quantidadeAuemntada);
+        //    }
+        //}
+
+        // 3
+        //public void Estudar()
+        //{
+        //    if (NomeDaEscola == "Senai")
+        //    {
+        //        Console.WriteLine("Parabéns, está em uma boa escola");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Aluno nãopertence ao senai");
+        //    }
+        //}
+
+
+        //5
+
+        //public void Informar()
+        //{
+        //     Console.WriteLine($"O nome é {Nome}, tem {Idade} anos, mora em {Cidade}, trabalha em {NomeEscola}, e da aula de {Materia} ");
+
+        //}
+        //public void Calculo(double nota1, double nota2, double nota3, double nota4)
+        //{
+        //   this.Nota1 = nota1;
+        //    this.Nota2 = nota2;
+        //    this.Nota3 = nota3;
+        //    this.Nota4 = nota4;
+        //    double nota = nota1 + nota2 + nota3 + nota4;
+        //    nota = nota / 4;
+        //    Console.WriteLine($"O aluno {NomeAluno}, e ficou com {nota} na média");
+
+        //}
+
+        //6
+        //public void Informar()
+        //{
+        //    Console.WriteLine($"O colaborador {Nome}, tem {Idade} anos, sua escolaridade {Escolaridade}, CPF: {Cpf}, portador do RG: {Rg} ");
+
+        //}
+        //public void Pagar(double salario)
+        //{
+        //    this.Salario = salario;
+
+        //    if ( salario <= 1000)
+        //    {
+        //        salario = salario * 1.25;
+        //    }
+        //    else if ( salario <= 3000)
+        //    {
+        //        salario = salario * 1.10;
+        //    }
+        //    else
+        //    {
+        //        salario = salario * 1.5;
+        //    }
+        //    Console.WriteLine($"Seu novo salario é de {salario} ");
+        //}
+
+
+        //4
+
+        //public void Retangulo()
+        //{
+        //    double area = Largura * Comprimento;
+        //    Console.WriteLine("A área do retângulo é:" + area);
+        //}
+
+        //public void Quadrado()
+        //{
+        //    double areaQ = Largura * Comprimento;
+        //    Console.WriteLine("A área do quadrado é de:" + areaQ);
+        //}
+
+        //public double Raio;
+        //public double Pi;
+        //public void Circulo()
+        //{
+        //    double areaC = (Raio * Raio) * 3.14;
+        //    Console.WriteLine("A área do quadrado é de:" + areaC);
+        //}
+
+
+
+
+    }
+}
+
+-------------------------------------------------------------------------------ALUNO
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Alunos
+    {
+        public string Nome;
+        public string Escola;
+        public double Nota1;
+        public double Nota2;
+        public double Nota3;
+        public double Nota4;
+        public double Nota5;
+
+
+        public double SomarNotas(double nota1, double nota2, double nota3, double nota4, double nota5)
+        {
+            this.Nota1 = nota1;
+            this.Nota2 = nota2;
+            this.Nota3 = nota3;
+            this.Nota4 = nota4;
+            this.Nota5 = nota5;
+            double media = nota1 + nota2 + nota3 + nota4 + nota5;
+            return media;
+            
+        }
+        public string CalcularMedia()
+        {
+            double resultado = SomarNotas(Nota1, Nota2, Nota3, Nota4, Nota5);
+            Console.WriteLine(resultado);
+
+            if(resultado >= 7)
+            {
+                return "Aluno aprovado";
+            }
+            else if(resultado >= 5)
+            {
+                return "Aluno de recuperação";
+            }
+            else
+            {
+                return "Aluno reprovado";
+            }
+
+            
+
+        }
+    }
+}
+--------------------------------------------------------------------------------------------MOEDA
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Moeda
+    {
+        public double ValorReais;
+        public double ValorDolar;
+        public double ValorEuro;
+
+
+        public void Conveter1(double valorReais)
+        {
+            this.ValorReais = valorReais;
+            double valorDolar;
+            valorDolar = valorReais / 5.40;
+            Console.WriteLine($"A conversão ficou : {valorDolar}");
+        }
+        public void Conveter2(double valorDolar)
+        {
+
+            this.ValorDolar = valorDolar;
+            double valorReais;
+            valorReais = valorDolar * 5.40;
+            Console.WriteLine($"A conversão ficou : {valorReais}");
+        }
+        public void Conveter3(double valorReais2)
+        {
+            this.ValorReais = valorReais2;
+            double valorEuro;
+            valorEuro = valorReais2 * 0.16;
+            Console.WriteLine($"A conversão ficou : {valorEuro}");
+        }
+
+    }
+}
+---------------------------------------------------------------------------------
+
+

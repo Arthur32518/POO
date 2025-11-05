@@ -209,20 +209,66 @@ namespace AulaClasse
             //metodosSenai.Pagar(salario);
 
             //7
-            MetodosSenai metodosSenai = new MetodosSenai();
-            Console.WriteLine("Digite o valor em reais para converter para Dolar");
-            double valorReais = Convert.ToDouble(Console.ReadLine());
-            metodosSenai.Conveter1(valorReais);
+            //Moeda moeda = new Moeda();
+            //Console.WriteLine("Digite o valor em reais para converter para Dolar");
+            //double valorReais = Convert.ToDouble(Console.ReadLine());
+            //moeda.Conveter1(valorReais);
 
 
-            Console.WriteLine("Digite o valor em Dolar para conversão para reais: ");
-            double valorDolar = Convert.ToDouble(Console.ReadLine());
-            metodosSenai.Conveter2(valorDolar);
+            //Console.WriteLine("Digite o valor em Dolar para conversão para reais: ");
+            //double valorDolar = Convert.ToDouble(Console.ReadLine());
+            //moeda.Conveter2(valorDolar);
 
 
-            Console.WriteLine("Digite o valor em Reais para conversão para Euro: ");
-            double valorReais2 = Convert.ToDouble(Console.ReadLine());
-            metodosSenai.Conveter3(valorReais2);
+            //Console.WriteLine("Digite o valor em Reais para conversão para Euro: ");
+            //double valorReais2 = Convert.ToDouble(Console.ReadLine());
+            //moeda.Conveter3(valorReais2);
+
+
+            //4
+            //MetodosSenai metodosSenai = new MetodosSenai();
+            //Console.WriteLine("Digite o valor da largura do retângulo:");
+            //metodosSenai.Largura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite o valor do comprimento do retângulo:");
+            //metodosSenai.Comprimento = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Retangulo();
+
+
+            //Console.WriteLine("Digite o valor da largura do quadrado:");
+            //metodosSenai.Largura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite o valor do comprimento do quadrado:");
+            //metodosSenai.Comprimento = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Quadrado();
+
+
+            //Console.WriteLine("Digite o valor do raio do círculo:");
+            //metodosSenai.Raio = Convert.ToDouble(Console.ReadLine());
+            //metodosSenai.Circulo();
+
+            //9
+            Alunos alunos = new Alunos();
+            
+            Console.WriteLine("Digite a primeira nota: ");
+            double nota1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Digite a segunda nota: ");
+            double nota2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Digite a terceira nota: ");
+            double nota3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Digite a quarta nota: ");
+            double nota4 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Digite a quinta nota: ");
+            double nota5 = Convert.ToDouble(Console.ReadLine());
+
+            alunos.SomarNotas(nota1,nota2 ,nota3,nota4,nota5);
+
+            string resultado = alunos.CalcularMedia();
+            Console.WriteLine(resultado);
+          
+
+
+
+
+
 
 
 
