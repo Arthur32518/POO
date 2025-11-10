@@ -1,0 +1,329 @@
+PROGRAM - MAIN DA AULA
+//Estagiario estagiario = new Estagiario();
+            //Console.WriteLine("Digite o valor do seu salario: ");
+            //double salarioE = Convert.ToDouble(Console.ReadLine());
+
+            //estagiario.CalcularValeAlimentacao(salarioE);
+            //estagiario.CalcularImposto(salarioE);
+
+
+            //Gerente gerente = new Gerente();
+
+            //Console.WriteLine("Digite o valor do seu salario: ");
+            //double salarioG = Convert.ToDouble(Console.ReadLine());
+
+            //gerente.CalcularValeAlimentacao(salarioG);
+            //gerente.CalcularImposto(salarioG);
+----------------------------------------------------------------------------------------ESTAGIARIO - AULA
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Estagiario : Colaborador
+    {
+        public override void CalcularValeAlimentacao(double salario)
+        {
+            double novoSalario = salario * 1.30;
+
+            Console.WriteLine($"Este colaborador tem um vale de {novoSalario} R$");
+        }
+        public override void CalcularImposto(double salario)
+        {
+         
+            Console.WriteLine($"Este colaborador tem um salario liquido de {salario} R$");
+        }
+    }
+}
+-----------------------------------------------------------------------------------------GERENTE AULA
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Gerente : Colaborador
+    {
+        public override void CalcularValeAlimentacao(double salario)
+        {
+            double novoSalario = salario * 1.10;
+
+            Console.WriteLine($"Este colaborador tem um vale de {novoSalario} R$");
+        }
+        public override void CalcularImposto(double salario)
+        {
+            double salarioLiquido = salario - (salario * 0.25);
+            Console.WriteLine($"Este colaborador tem um imposto de {salarioLiquido} R$");
+        }
+    }
+}
+----------------------------------------------------------------------------------------COLABORADOR AULA
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Colaborador
+    {
+        public string nome;
+
+        public virtual void CalcularValeAlimentacao(double salario)
+        {
+            double novoSalario = salario * 1.25;
+
+            Console.WriteLine($"Este colaborador tem um novo salario de {novoSalario} R$");
+        }
+        public virtual void CalcularImposto(double salario)
+        {
+            double imposto = salario * 0.15;
+            double salarioLiquido = salario - imposto;
+            Console.WriteLine($"Este colaborador tem um salario liquido de {salarioLiquido} R$");
+
+        }
+    }
+}
+
+-------------------------------------------------------------------------------------PROGRAM ATIVIDADE ENCAPSULAMENTO
+
+//Pessoa2 pessoa2 = new Pessoa2();
+            //Console.WriteLine("Digite seu nome: ");
+            //pessoa2.nome = Console.ReadLine();
+            //Console.WriteLine("Digite seu CPF: ");
+            //pessoa2.Cpf = Console.ReadLine();
+            //while (pessoa2.Cpf == "")
+            //{
+            //    Console.WriteLine("Digite seu CPF: ");
+            //    pessoa2.Cpf = Console.ReadLine();
+            //}
+            //Console.WriteLine("Digite sua cidade: ");
+            //pessoa2.Cidade = Console.ReadLine();
+            //Console.WriteLine("Digite seu estado: ");
+            //pessoa2.Estado = Console.ReadLine();
+            //Console.WriteLine("Digite seu RG: ");
+            //pessoa2.Rg = Console.ReadLine();
+            //while (pessoa2.Rg == "")
+            //{
+            //    Console.WriteLine("Digite seu RG: ");
+            //    pessoa2.Rg = Console.ReadLine();
+            //}
+            //Console.WriteLine("Digite sua altura: ");
+            //pessoa2.altura = Convert.ToDouble(Console.ReadLine());
+            //while (pessoa2.altura <= 0)
+            //{
+            //    Console.WriteLine("Digite sua altura: ");
+            //    pessoa2.altura = Convert.ToDouble(Console.ReadLine());
+
+            //}
+            //Console.WriteLine("Digite sua cor: ");
+            //pessoa2.cor = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //pessoa2.idade = Convert.ToInt32(Console.ReadLine());
+
+
+            //while (pessoa2.idade <= 0)
+            //{
+            //    Console.WriteLine("Digite sua idade: ");
+            //    pessoa2.idade = Convert.ToInt32(Console.ReadLine());
+
+            //}
+            //pessoa2.ApresentarPessoa();
+
+
+            //Aluno3 aluno3 = new Aluno3();
+            //Console.WriteLine("Digite seu nome: ");
+            //aluno3.nome = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //aluno3.idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Digite sua cor: ");
+            //aluno3.cor = Console.ReadLine();
+            //Console.WriteLine("Digite sua altura: ");
+            //aluno3.altura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite sua RA: ");
+            //aluno3.ra = Console.ReadLine();
+            //while (aluno3.ra == "")
+            //{
+            //    Console.WriteLine("Digite sua RA: ");
+            //    aluno3.ra = Console.ReadLine();
+
+            //}
+            //aluno3.ApresentarAluno();
+            //Console.Clear();
+
+
+            //Professor professor = new Professor();
+            //Console.WriteLine("Digite seu nome: ");
+            //professor.nome = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //professor.idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Digite sua cor: ");
+            //professor.cor = Console.ReadLine();
+            //Console.WriteLine("Digite sua altura: ");
+            //professor.altura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite seu NIF: ");
+            //professor.Nif = Console.ReadLine();
+            //while (professor.Nif == "")
+            //{
+            //    Console.WriteLine("Digite seu NIF: ");
+            //    professor.Nif = Console.ReadLine();
+
+            //}
+            //Console.WriteLine("Digite seu CPF: ");
+            //professor.Cpf = Console.ReadLine();
+            //professor.ApresentarProfessor();
+-----------------------------------------------------------------------------------------------Pessoa
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Pessoa2
+    {
+        public string nome;
+        public int idade;
+        public string cor;
+        public double altura;
+
+        private string cpf;
+        private string rg;
+        private string cidade;
+        private string estado;
+
+
+        public string Cpf
+        {
+            get
+            {
+                return cpf;
+            }
+            set
+            {
+                cpf = value;
+            }
+        }
+        public string Rg
+        {
+            get
+            {
+                return rg;
+            }
+            set
+            {
+                rg = value;
+            }
+        }
+        public string Cidade
+        {
+            get
+            {
+                return cidade;
+            }
+            set
+            {
+                cidade = value;
+            }
+        }
+        public string Estado
+        {
+            get
+            {
+                return estado;
+            }
+            set
+            {
+                estado = value;
+            }
+        }
+
+        public void ApresentarPessoa()
+        {
+           
+            Console.WriteLine($"Este usuario chamasse {nome}, tem {idade} anos, sua cor é {cor}, tem {altura} de altura, CPF: {cpf}, RG: {rg}, cidade: {cidade}, estado: {estado}");
+        }
+
+
+
+    }
+}
+-----------------------------------------------------------------------------------------------------------Aluno
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Aluno3 : Pessoa2
+    {
+        private string RA;
+
+        public string ra
+        {
+            get
+            {
+                return RA;
+            }
+            set
+            {
+                RA = value;
+            }
+
+        }
+        public void ApresentarAluno()
+        {
+            Console.WriteLine($"Este usuario chamasse {nome}, tem {idade} anos, sua cor é {cor}, tem {altura} de altura, RA: {RA}");
+        }
+
+
+    }
+}
+-----------------------------------------------------------------------------------------------------------Professor
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AulaClasse
+{
+    public class Professor : Pessoa2
+    {
+        private string nif;
+        private string cpf;
+
+        public string Nif
+        {
+            get 
+            { 
+                return nif;
+            }
+            set
+            {
+                nif = value;
+            }
+
+        }      
+
+        public void ApresentarProfessor()
+        {
+            Console.WriteLine($"Este usuario chamasse {nome}, tem {idade} anos, sua cor é {cor}, tem {altura} de altura, NIF: {Nif}, CPF: {Cpf}");
+        }
+
+
+
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------

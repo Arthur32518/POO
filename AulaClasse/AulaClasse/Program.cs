@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace AulaClasse
 {
@@ -10,7 +11,7 @@ namespace AulaClasse
     {
         static void Main(string[] args)
         {
-            
+
 
             // --1
             //MetodosSenai metodosSenai = new MetodosSenai();
@@ -134,7 +135,7 @@ namespace AulaClasse
 
             //9
             //Alunos alunos = new Alunos();
-            
+
             //Console.WriteLine("Digite a primeira nota: ");
             //double nota1 = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine("Digite a segunda nota: ");
@@ -150,57 +151,128 @@ namespace AulaClasse
 
             //string resultado = alunos.CalcularMedia();
             //Console.WriteLine(resultado);
-          
-            Aluno2 aluno2 = new Aluno2();
-            aluno2.Cpf = "000";
 
-            Console.WriteLine(aluno2.Cpf);
+            //Aluno2 aluno2 = new Aluno2();
+            //aluno2.Cpf = "000";
 
-            Animal animal = new Animal();
+            //Console.WriteLine(aluno2.Cpf);
 
-            Gato gato = new Gato();
+            //Animal animal = new Animal();
 
-            PessoaJS pessoaJS = new PessoaJS();
-            pessoaJS.Cnpj = "12345";
-            pessoaJS.razaoSocial = "AAA";
-            pessoaJS.sexo = "Masculino";
-            pessoaJS.idade = 25;
-            pessoaJS.endereco = "AV sao jose";
-          
-            
-            PessoaPF pessoaPF = new PessoaPF();
-            pessoaPF.Cpf = "22222";
-            pessoaPF.cidade = "Garça";
-            pessoaPF.endereco = "Av Paineiras";
-            pessoaPF.sexo = "Masculino";
-            pessoaPF.idade = 29;
+            //Gato gato = new Gato();
+
+            //PessoaJS pessoaJS = new PessoaJS();
+            //pessoaJS.Cnpj = "12345";
+            //pessoaJS.razaoSocial = "AAA";
+            //pessoaJS.sexo = "Masculino";
+            //pessoaJS.idade = 25;
+            //pessoaJS.endereco = "AV sao jose";
 
 
-            Pessoa pessoa = new Pessoa();
-            pessoa.idade = 30;
-            pessoa.nome = "Arthur";
-            pessoa.sexo = "Masculino";
-            pessoaPF.idade = 29;
+            //PessoaPF pessoaPF = new PessoaPF();
+            //pessoaPF.Cpf = "22222";
+            //pessoaPF.cidade = "Garça";
+            //pessoaPF.endereco = "Av Paineiras";
+            //pessoaPF.sexo = "Masculino";
+            //pessoaPF.idade = 29;
 
 
+            //Pessoa pessoa = new Pessoa();
+            //pessoa.idade = 30;
+            //pessoa.nome = "Arthur";
+            //pessoa.sexo = "Masculino";
+            //pessoaPF.idade = 29;
+
+            //Estagiario estagiario = new Estagiario();
+            //Console.WriteLine("Digite o valor do seu salario: ");
+            //double salarioE = Convert.ToDouble(Console.ReadLine());
+
+            //estagiario.CalcularValeAlimentacao(salarioE);
+            //estagiario.CalcularImposto(salarioE);
 
 
+            //Gerente gerente = new Gerente();
+
+            //Console.WriteLine("Digite o valor do seu salario: ");
+            //double salarioG = Convert.ToDouble(Console.ReadLine());
+
+            //gerente.CalcularValeAlimentacao(salarioG);
+            //gerente.CalcularImposto(salarioG);
 
 
+            Pessoa2 pessoa2 = new Pessoa2();
+            Console.WriteLine("Digite seu nome: ");
+            pessoa2.nome = Console.ReadLine();
+            Console.WriteLine("Digite seu CPF: ");
+            pessoa2.Cpf = Console.ReadLine();
+            while (pessoa2.Cpf == "")
+            {
+                Console.WriteLine("Digite seu CPF: ");
+                pessoa2.Cpf = Console.ReadLine();
+            }
+            Console.WriteLine("Digite sua cidade: ");
+            pessoa2.Cidade = Console.ReadLine();
+            Console.WriteLine("Digite seu estado: ");
+            pessoa2.Estado = Console.ReadLine();
+            Console.WriteLine("Digite seu RG: ");
+            pessoa2.Rg = Console.ReadLine();
+            while (pessoa2.Rg == "")
+            {
+                Console.WriteLine("Digite seu RG: ");
+                pessoa2.Rg = Console.ReadLine();
+            }
+            Console.WriteLine("Digite sua altura: ");
+            pessoa2.altura = Convert.ToDouble(Console.ReadLine());
+            while (pessoa2.altura <= 0)
+            {
+                Console.WriteLine("Digite sua altura: ");
+                pessoa2.altura = Convert.ToDouble(Console.ReadLine());
+
+            }
+            Console.WriteLine("Digite sua cor: ");
+            pessoa2.cor = Console.ReadLine();
+            Console.WriteLine("Digite sua idade: ");
+            pessoa2.idade = Convert.ToInt32(Console.ReadLine());
+
+           
+            while (pessoa2.idade <= 0)
+            {
+                Console.WriteLine("Digite sua idade: ");
+                pessoa2.idade = Convert.ToInt32(Console.ReadLine());
+
+            }
+            pessoa2.ApresentarPessoa();
 
 
+            //Aluno3 aluno3 = new Aluno3();
+            //Console.WriteLine("Digite seu nome: ");
+            //aluno3.nome = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //aluno3.idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Digite sua cor: ");
+            //aluno3.cor = Console.ReadLine();
+            //Console.WriteLine("Digite sua altura: ");
+            //aluno3.altura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite sua RA: ");
+            //aluno3.ra = Convert.ToInt32(Console.ReadLine());
+            //aluno3.ApresentarAluno();
+            //Console.Clear();
 
 
-
-
-
-
-
-
-
-
-
-
+            //Professor professor = new Professor();
+            //Console.WriteLine("Digite seu nome: ");
+            //professor.nome = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //professor.idade = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Digite sua cor: ");
+            //professor.cor = Console.ReadLine();
+            //Console.WriteLine("Digite sua altura: ");
+            //professor.altura = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Digite seu NIF: ");
+            //professor.Nif = Console.ReadLine();
+            //Console.WriteLine("Digite seu CPF: ");
+            //professor.Cpf = Console.ReadLine();
+            //professor.ApresentarProfessor();
 
 
 
