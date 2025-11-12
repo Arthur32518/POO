@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -200,48 +201,48 @@ namespace AulaClasse
             //gerente.CalcularImposto(salarioG);
 
 
-            Pessoa2 pessoa2 = new Pessoa2();
-            Console.WriteLine("Digite seu nome: ");
-            pessoa2.nome = Console.ReadLine();
-            Console.WriteLine("Digite seu CPF: ");
-            pessoa2.Cpf = Console.ReadLine();
-            while (pessoa2.Cpf == "")
-            {
-                Console.WriteLine("Digite seu CPF: ");
-                pessoa2.Cpf = Console.ReadLine();
-            }
-            Console.WriteLine("Digite sua cidade: ");
-            pessoa2.Cidade = Console.ReadLine();
-            Console.WriteLine("Digite seu estado: ");
-            pessoa2.Estado = Console.ReadLine();
-            Console.WriteLine("Digite seu RG: ");
-            pessoa2.Rg = Console.ReadLine();
-            while (pessoa2.Rg == "")
-            {
-                Console.WriteLine("Digite seu RG: ");
-                pessoa2.Rg = Console.ReadLine();
-            }
-            Console.WriteLine("Digite sua altura: ");
-            pessoa2.altura = Convert.ToDouble(Console.ReadLine());
-            while (pessoa2.altura <= 0)
-            {
-                Console.WriteLine("Digite sua altura: ");
-                pessoa2.altura = Convert.ToDouble(Console.ReadLine());
+            //Pessoa2 pessoa2 = new Pessoa2();
+            //Console.WriteLine("Digite seu nome: ");
+            //pessoa2.nome = Console.ReadLine();
+            //Console.WriteLine("Digite seu CPF: ");
+            //pessoa2.Cpf = Console.ReadLine();
+            //while (pessoa2.Cpf == "")
+            //{
+            //    Console.WriteLine("Digite seu CPF: ");
+            //    pessoa2.Cpf = Console.ReadLine();
+            //}
+            //Console.WriteLine("Digite sua cidade: ");
+            //pessoa2.Cidade = Console.ReadLine();
+            //Console.WriteLine("Digite seu estado: ");
+            //pessoa2.Estado = Console.ReadLine();
+            //Console.WriteLine("Digite seu RG: ");
+            //pessoa2.Rg = Console.ReadLine();
+            //while (pessoa2.Rg == "")
+            //{
+            //    Console.WriteLine("Digite seu RG: ");
+            //    pessoa2.Rg = Console.ReadLine();
+            //}
+            //Console.WriteLine("Digite sua altura: ");
+            //pessoa2.altura = Convert.ToDouble(Console.ReadLine());
+            //while (pessoa2.altura <= 0)
+            //{
+            //    Console.WriteLine("Digite sua altura: ");
+            //    pessoa2.altura = Convert.ToDouble(Console.ReadLine());
 
-            }
-            Console.WriteLine("Digite sua cor: ");
-            pessoa2.cor = Console.ReadLine();
-            Console.WriteLine("Digite sua idade: ");
-            pessoa2.idade = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.WriteLine("Digite sua cor: ");
+            //pessoa2.cor = Console.ReadLine();
+            //Console.WriteLine("Digite sua idade: ");
+            //pessoa2.idade = Convert.ToInt32(Console.ReadLine());
 
-           
-            while (pessoa2.idade <= 0)
-            {
-                Console.WriteLine("Digite sua idade: ");
-                pessoa2.idade = Convert.ToInt32(Console.ReadLine());
 
-            }
-            pessoa2.ApresentarPessoa();
+            //while (pessoa2.idade <= 0)
+            //{
+            //    Console.WriteLine("Digite sua idade: ");
+            //    pessoa2.idade = Convert.ToInt32(Console.ReadLine());
+
+            //}
+            //pessoa2.ApresentarPessoa();
 
 
             //Aluno3 aluno3 = new Aluno3();
@@ -254,7 +255,13 @@ namespace AulaClasse
             //Console.WriteLine("Digite sua altura: ");
             //aluno3.altura = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine("Digite sua RA: ");
-            //aluno3.ra = Convert.ToInt32(Console.ReadLine());
+            //aluno3.ra = Console.ReadLine();
+            //while (aluno3.ra == "")
+            //{
+            //    Console.WriteLine("Digite sua RA: ");
+            //    aluno3.ra = Console.ReadLine();
+
+            //}
             //aluno3.ApresentarAluno();
             //Console.Clear();
 
@@ -270,11 +277,48 @@ namespace AulaClasse
             //professor.altura = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine("Digite seu NIF: ");
             //professor.Nif = Console.ReadLine();
+            //while (professor.Nif == "")
+            //{
+            //    Console.WriteLine("Digite seu NIF: ");
+            //    professor.Nif = Console.ReadLine();
+
+            //}
             //Console.WriteLine("Digite seu CPF: ");
             //professor.Cpf = Console.ReadLine();
             //professor.ApresentarProfessor();
 
+            //Coordenador coordenador = new Coordenador();
+            //Console.WriteLine("Digite seu salario coordenador: ");
+            //double salarioC = Convert.ToDouble(Console.ReadLine());
+            //coordenador.CalcularSalario(salarioC);
 
+            //Professor2 professor2 = new Professor2();
+            //Console.WriteLine("Digite seu salario professor: ");
+            //double salarioP = Convert.ToDouble(Console.ReadLine());
+            //professor2.CalcularSalario(salarioP);
+
+            //Diretor1 diretor1 = new Diretor1();
+            //Console.WriteLine("Digite seu salario diretor: ");
+            //double salarioD = Convert.ToDouble(Console.ReadLine());
+            //diretor1.CalcularSalario(salarioD);
+
+            //Poupanca poupanca = new Poupanca();
+            //Console.WriteLine("Digite o valor do saque poupança: ");
+            //double saqueP = Convert.ToDouble(Console.ReadLine());
+            //poupanca.calcularImposto(saqueP);
+
+            //Corrente corrente = new Corrente();
+            //Console.WriteLine("Digite o valor do saque corrente: ");
+            //double saqueC = Convert.ToDouble(Console.ReadLine());
+            //corrente.calcularImposto(saqueC);
+
+            Veiculo1 veiculo1 = new Veiculo1();
+            veiculo1.calcularValorCombustivel();
+            veiculo1.calcularTotal();
+
+            
+
+            
 
 
 

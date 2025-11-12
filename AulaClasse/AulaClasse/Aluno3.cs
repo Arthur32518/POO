@@ -8,9 +8,9 @@ namespace AulaClasse
 {
     public class Aluno3 : Pessoa2
     {
-        private int RA;
+        private string RA;
 
-        public int ra
+        public string ra
         {
             get
             {

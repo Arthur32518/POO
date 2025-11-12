@@ -67,15 +67,7 @@ namespace AulaClasse
 
         public void ApresentarPessoa()
         {
-            if(idade < 0)
-            {
-                Console.WriteLine("Idade invalida");
-
-            }
-            else
-            {
-
-            }
+           
             Console.WriteLine($"Este usuario chamasse {nome}, tem {idade} anos, sua cor é {cor}, tem {altura} de altura, CPF: {cpf}, RG: {rg}, cidade: {cidade}, estado: {estado}");
         }
 

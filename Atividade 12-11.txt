@@ -1,0 +1,28 @@
+//Coordenador coordenador = new Coordenador();
+            //Console.WriteLine("Digite seu salario coordenador: ");
+            //double salarioC = Convert.ToDouble(Console.ReadLine());
+            //coordenador.CalcularSalario(salarioC);
+
+            //Professor2 professor2 = new Professor2();
+            //Console.WriteLine("Digite seu salario professor: ");
+            //double salarioP = Convert.ToDouble(Console.ReadLine());
+            //professor2.CalcularSalario(salarioP);
+
+            //Diretor1 diretor1 = new Diretor1();
+            //Console.WriteLine("Digite seu salario diretor: ");
+            //double salarioD = Convert.ToDouble(Console.ReadLine());
+            //diretor1.CalcularSalario(salarioD);
+
+            //Poupanca poupanca = new Poupanca();
+            //Console.WriteLine("Digite o valor do saque poupança: ");
+            //double saqueP = Convert.ToDouble(Console.ReadLine());
+            //poupanca.calcularImposto(saqueP);
+
+            //Corrente corrente = new Corrente();
+            //Console.WriteLine("Digite o valor do saque corrente: ");
+            //double saqueC = Convert.ToDouble(Console.ReadLine());
+            //corrente.calcularImposto(saqueC);
+
+            Veiculo1 veiculo1 = new Veiculo1();
+            veiculo1.calcularValorCombustivel();
+            veiculo1.calcularTotal();
