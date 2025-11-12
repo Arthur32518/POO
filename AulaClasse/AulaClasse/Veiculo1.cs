@@ -55,24 +55,24 @@ namespace AulaClasse
         {
             Console.WriteLine("Digite quantas pessoas vão na viagem: ");
             int pessoas = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Qauntos KM irá rodar: ");
+            Console.WriteLine("Quantos KM irá rodar: ");
             double km = Convert.ToDouble(Console.ReadLine());
 
             if (pessoas == 2 && km > 50 )
             {
                 double totalViagem = km * 25;
-                Console.WriteLine($"A kilometragem total será : {totalViagem} ");
+                Console.WriteLine($"A valor total será : {totalViagem} ");
             }
             else if (pessoas == 2 && km <= 50)
             {
                 double totalViagem = km * 18;
-                Console.WriteLine($"A kilometragem total será : {totalViagem} ");
+                Console.WriteLine($"A valor total será : {totalViagem} ");
 
             }
             else
             {
                 double totalViagem = km * 15;
-                Console.WriteLine($"A kilometragem total será : {totalViagem} ");
+                Console.WriteLine($"A valor total será : {totalViagem} ");
 
             }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AulaClasse
 {
-    public class Animal1
+    public class Animal1 
     {
         public string especie;
         public string nome;

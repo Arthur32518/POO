@@ -312,14 +312,18 @@ namespace AulaClasse
             //double saqueC = Convert.ToDouble(Console.ReadLine());
             //corrente.calcularImposto(saqueC);
 
-            Veiculo1 veiculo1 = new Veiculo1();
-            veiculo1.calcularValorCombustivel();
-            veiculo1.calcularTotal();
+            //Veiculo1 veiculo1 = new Veiculo1();
+            //veiculo1.calcularValorCombustivel();
+            //veiculo1.calcularTotal();
 
-            
 
-            
+            //Metodo construtor com parametro
+            //AlunoSenai alunoSenai = new AlunoSenai( 25,"111", "Arthur");
+            //Console.WriteLine(alunoSenai.Idade);
+            //BancoDeDados db = new BancoDeDados("LocalHost", 3306 , "root", "123");
 
+            Quadrado quadrado = new Quadrado();
+            quadrado.CalcularArea();
 
 
         }
