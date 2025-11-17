@@ -318,14 +318,14 @@ namespace AulaClasse
 
 
             //Metodo construtor com parametro
-            //AlunoSenai alunoSenai = new AlunoSenai( 25,"111", "Arthur");
+            //AlunoSenai alunoSenai = new AlunoSenai(25, "111", "Arthur");
             //Console.WriteLine(alunoSenai.Idade);
-            //BancoDeDados db = new BancoDeDados("LocalHost", 3306 , "root", "123");
+            //BancoDeDados db = new BancoDeDados("LocalHost", 3306, "root", "123");
 
             //Quadrado quadrado = new Quadrado();
             //quadrado.CalcularArea();
 
-         
+
             //Sesi sesi = new Sesi();
             //sesi.DescobrirNome();
             //sesi.CalcularMedia();
@@ -343,7 +343,17 @@ namespace AulaClasse
             //Bancario bancario = new Bancario();
             //bancario.CalcularHorasExtras();
 
+            //Passaro1 passaro1 = new Passaro1();
+            //passaro1.Voar();
 
+            //Caixa caixa = new Caixa(5);
+            //caixa.Volume();
+
+            //Retangulo retangulo =new Retangulo(10, 10);
+            //retangulo.Area();
+
+            Aluno4 aluno4 = new Aluno4("Arthur", 16, "12345", "54321");
+            
         }
     }
 }
