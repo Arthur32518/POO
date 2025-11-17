@@ -322,8 +322,26 @@ namespace AulaClasse
             //Console.WriteLine(alunoSenai.Idade);
             //BancoDeDados db = new BancoDeDados("LocalHost", 3306 , "root", "123");
 
-            Quadrado quadrado = new Quadrado();
-            quadrado.CalcularArea();
+            //Quadrado quadrado = new Quadrado();
+            //quadrado.CalcularArea();
+
+         
+            //Sesi sesi = new Sesi();
+            //sesi.DescobrirNome();
+            //sesi.CalcularMedia();
+
+            //Senai  senai = new Senai();
+            //senai.CalcularMedia();
+            //senai.DescobrirNome();
+
+            //Desenvolvedor desenvolvedor = new Desenvolvedor();
+            //desenvolvedor.CalcularHorasExtras();
+
+            //GerenteTI gerenteTI = new GerenteTI();
+            //gerenteTI.CalcularHorasExtras();
+
+            //Bancario bancario = new Bancario();
+            //bancario.CalcularHorasExtras();
 
 
         }

@@ -1,0 +1,16 @@
+ //Sesi sesi = new Sesi();
+            //sesi.DescobrirNome();
+            //sesi.CalcularMedia();
+
+            //Senai  senai = new Senai();
+            //senai.CalcularMedia();
+            //senai.DescobrirNome();
+
+            //Desenvolvedor desenvolvedor = new Desenvolvedor();
+            //desenvolvedor.CalcularHorasExtras();
+
+            //GerenteTI gerenteTI = new GerenteTI();
+            //gerenteTI.CalcularHorasExtras();
+
+            //Bancario bancario = new Bancario();
+            //bancario.CalcularHorasExtras();
